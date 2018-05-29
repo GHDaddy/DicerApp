@@ -1,0 +1,103 @@
+@font-face{
+    font-family: Comfortaa;
+    src: url(./Comfortaa-Regular.ttf);
+}
+
+body{
+    font-family: Comfortaa;
+}
+
+#header{
+    padding: 2%;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: solid thin black;
+}
+
+#startButton{
+    background-color: lightgray;
+    text-align: center;
+}
+
+.subText{
+    text-align: center;
+}
+
+#diceType{
+    font-size: 80%;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+.button:active{
+    background-color: rgba(0, 0, 0, 0.29);
+}
+
+#row1{
+    padding: 5%;
+}
+#row2{
+    padding: 5%;
+}
+
+#radiorow{
+   margin-top: 5%;
+   margin-left: 3%;
+}
+
+#diceAmount{
+    font-size: 80%;
+}
+
+#rollAmount{
+    background-color: rgba(0,0,0,.05);
+    font-size: 60%;
+}
+
+#buttons{
+    padding: 4%;
+}
+
+.buttons{
+    border-right: solid thin black;
+}
+
+.button{
+    background-color: rgba(0,0,0,.20);
+}
+
+@media screen and (min-width: 769px){
+    body{
+        padding: 5%;
+        margin-top: -5%;
+    }
+    #buttons{
+        padding: 1%;
+    }
+
+    #diceType{
+        font-size: 130%;
+    }
+
+    .subText{
+        font-size: 150%;
+    }
+    #diceAmount{
+        font-size: 90%;
+    }
+    
+    #rollAmount{
+        font-size: 170%;
+    }
+
+    .button{
+        font-size: 150%;
+    }
+
+    #rollButton{
+        font-size: 150%;
+    }
+
+}

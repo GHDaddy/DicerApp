@@ -1,0 +1,19 @@
+{
+  "name": "DiceRollThing",
+  "version": "1.0.0",
+  "description": "This is a dice roller lol",
+  "main": "bin/server",
+  "scripts": {
+    "start": "node bin/server"
+  },
+  "author": "Gavin Brostar",
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "ejs": "latest",
+    "formidable": "latest",
+    "nedb": "latest",
+    "package.json": "^2.0.1",
+    "serve-static": "^1.13.2"
+  }
+}

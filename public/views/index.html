@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>d i c e</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/app.css">
+  <link rel="stylesheet" href="../css/foundation.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div id="header">
+        <p>- Dice Roller -</p>
+        <div id="subStuff">
+            <p id="rollAmount" class="subText">Total: </p>
+        </div>
+    <!-- Dice? More like, DIEEEEE | D4 D6 D8 D10 D12 D20 D100 -->
+    </div>
+    <p class="subText">- Number of Dice -</p>
+   <div class="grid-x" id="buttons">
+       <button class="button small-3 cell" id="decreaseDie">-</button>
+       <div class="small-6 cell subText" id="diceNumber">Dice Number</div>
+       <button class="button small-3 cell" id="increaseDie">+</button>
+   </div>
+
+   <br>
+   <p class="subText">- Dice Type -</p>
+   <p class="subText" id="diceType">0</p>
+   <div class="grid-x" id="buttons">
+        <button class="button small-3 cell buttons" id="D4">D4</button>
+        <button class="button small-3 cell buttons" id="D6">D6</button>
+        <button class="button small-3 cell buttons" id="D8">D8</button>
+        <button class="button small-3 cell" id="D10">D10</button>
+    </div>
+    <div class="grid-x" id="buttons">
+        <button class="button small-4 cell buttons" id="D12">D12</button>
+        <button class="button small-4 cell buttons" id="D20">D20</button>
+        <button class="button small-4 cell" id="D100">D100</button>
+    </div>
+
+    <div class="grid-x" id="buttons">
+        <div class="small-3 cell"></div>
+        <button class="button small-6 cell" id="rollButton">ROLL</button>
+        <div class="small-3 cell"></div>
+    </div>
+
+
+    <script type="module" src="../js/main.js"></script>
+</body>
+</html>
